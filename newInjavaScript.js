@@ -72,3 +72,15 @@ const res = Object.fromEntries(
 );
 
 // res is { 'abc': 2, 'def': 4 }
+
+
+var arr1 = [1, 2, [3, 4]];
+arr1.flat(); 
+// [1, 2, 3, 4]
+
+var arr2 = [1, 2, [3, 4, [5, 6]]];
+arr2.flat();
+// [1, 2, 3, 4, [5, 6]]
+
+//Or you can Use arr2.flat(Infinity);
+//[1,2,3,4,5,6]
