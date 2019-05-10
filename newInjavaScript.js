@@ -12,10 +12,9 @@ var getGlobal = function() {
 const theGlobalThis = globalThis;
 
 
-class Point {#
-    x; //private
-    #
-    y; //private
+class Point {
+    #x; //private
+    #y; //private
 
     constructor(x, y) {
         this.#x = x;
